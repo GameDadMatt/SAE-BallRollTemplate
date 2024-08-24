@@ -43,6 +43,7 @@ public class TriggerArea : MonoBehaviour
                     break;
                 case TriggerType.Kill:
                     TriggerKill();
+                    isTriggered = false;
                     break;
             }
         }
